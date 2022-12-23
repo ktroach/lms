@@ -21,11 +21,11 @@ if (process.env.NODE_ENV === "production") {
 // Add routes, both API and view
 app.use(routes);
 
-// const MONGODB_URI = "mongodb+srv://admin:Xw2Ce3Vr4Bt5**@thecalling.ad6wa.mongodb.net/test";
-// // Set mongoose to leverage built in JavaScript ES6 Promises
-// mongoose.Promise = Promise;
-// // Connect to the Mongo DB
-// mongoose.connect(MONGODB_URI);
+const MONGODB_URI = "mongodb+srv://admin:Xw2Ce3Vr4Bt5**@thecalling.ad6wa.mongodb.net/test";
+// Set mongoose to leverage built in JavaScript ES6 Promises
+mongoose.Promise = Promise;
+// Connect to the Mongo DB
+mongoose.connect(MONGODB_URI);
 
 app.listen(PORT, function() {
   console.log(`🌎 ==> Server now on port ${PORT}!`);

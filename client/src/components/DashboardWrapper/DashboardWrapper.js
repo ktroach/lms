@@ -8,10 +8,10 @@ import CheckIn from "../CheckIn";
 
 const DashboardWrapper = () => (
   <div className="DashboardWrapper">
-    <SchoolInfo />
+    {/* <SchoolInfo />
     <CheckIn />
     <HomeworkWrapper />
-    <SessionWrapper />
+    <SessionWrapper /> */}
   </div>
 );
 export default DashboardWrapper;

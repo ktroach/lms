@@ -16,7 +16,7 @@ class Login extends Component {
       <Container fluid>
         <Row>
             <Jumbotron>
-              <h1>Northwestern Coding Bootcamp</h1>
+              <h1>Angelo Bible College</h1>
             </Jumbotron>
         </Row>
         <Row>

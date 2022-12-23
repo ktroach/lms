@@ -2,12 +2,12 @@ nav.navbar.navbar-default {
   margin-bottom: 0;
 }
 .logoLink{
-  background: url(./../../bootspot.svg) no-repeat 0 0;
-  width:148px;
-  height: 32px;
+  background: url(https://cdn.rawgit.com/Deftwun/e3756a8b518cbb354425/raw/6584db8babd6cbc4ecb35ed36f0d184a506b979e/free-code-camp-logo.svg) no-repeat 0 0;
+  width: 48px;
+  height: 16px;
   display: block;
   margin: 20px 0 0 20px;
-  background-size: 144px;
+  background-size: 104px;
   border: none;
 }
 .logoLink:hover{
